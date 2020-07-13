@@ -1,1 +1,0 @@
-<div align=center><img src="https://github.com/cancerts/study-blockchain-referrence/raw/master/books/链接未来：迎接区块链与数字资产的新时代/Lian Jie Wei Lai/01.jpg" /></div>
