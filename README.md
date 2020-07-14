@@ -255,6 +255,28 @@ origin  git@github.com:keithnull/keithnull.github.io.git (push)
 origin  git@git.coding.net:KeithNull/keithnull.github.io.git (push)
 ```
 
+删除本地分支：git branch -d 分支名称
+
+强制删除本地分支：git branch -D 分支名称
+
+删除远程分支：git push origin --delete 分支名称
+
+```
+git branch -d a
+git branch -D a
+git push origin --delete a
+```
+
+
+注意：删除分支就不可以撤销。删除分支前需要慎重。 
+
+通常不需要删除分支；如果本地不同分支间冲突，可以修改分支名称，一个本地分支不会占用很多的内容
+
+```
+git branch -m oldName newName
+示例：git branch -m a b
+```
+
 ### git的命令指南
 
 ```
@@ -270,7 +292,7 @@ git checkout -b dev 创建并进入到dev分支
 ```
 
 ```
-git reset --hard 版本号
+git reset -- 版本号
 ```
 
 ```
