@@ -127,9 +127,9 @@ ssh-keygen -t rsa -C " "
 - 2.配置管理员身份信息
 
   ```
-    cd Desktop/manager/info/
-    git config user.name 'kuangxianhua'
-    git config user.email '4564641897@qq.com'
+  cd Desktop/manager/info/
+  git config user.name 'kuangxianhua'
+  git config user.email '4564641897@qq.com'
   ```
 
 - 3.日常管理
@@ -144,14 +144,14 @@ ssh-keygen -t rsa -C " "
 - 4.推送项目到远程仓库
 
   ```
-    #查看当前项目变更状态
-    git status
-    # 工作区添加到暂存区
-    git add .
-    # 暂存区提交到仓库区
-    git commit -m '立项'
-    # 推送到远程仓库
-    git push
+  #查看当前项目变更状态
+  git status
+  # 工作区添加到暂存区
+  git add .
+  # 暂存区提交到仓库区
+  git commit -m '立项'
+  # 推送到远程仓库
+  git push
   ```
 
 ![](https://github.com/lidengjia1/HNU-blockchain3.0/blob/master/image-storage/git%E6%A0%B8%E5%BF%83%E6%93%8D%E4%BD%9C.jpg)
@@ -169,8 +169,7 @@ ssh-keygen -t rsa -C " "
   git config --global credential.helper store
   ```
 
-
-6.将本地仓库关联不同的远程仓库
+- 6.将本地仓库关联不同的远程仓库
 
 查看本地仓库关联远程仓库
 
@@ -224,7 +223,7 @@ origin  git@github.com:keithnull/keithnull.github.io.git (fetch)
 origin  git@github.com:keithnull/keithnull.github.io.git (push)
 ```
 
-然后，**不额外添加远程仓库，而是给现有的远程仓库添加额外的URL**。使用`git remote set-url -add <name> <url>`，给已有的名为`name`的远程仓库添加一个远程地址，比如：
+然后，不额外添加远程仓库，而是给现有的远程仓库添加额外的URL。使用`git remote set-url -add <name> <url>`，给已有的名为`name`的远程仓库添加一个远程地址，比如：
 
 ```bash
 $ git remote set-url --add origin git@git.coding.net:KeithNull/keithnull.github.io.git
@@ -238,6 +237,8 @@ origin  git@github.com:keithnull/keithnull.github.io.git (fetch)
 origin  git@github.com:keithnull/keithnull.github.io.git (push)
 origin  git@git.coding.net:KeithNull/keithnull.github.io.git (push)
 ```
+
+- 7.对分支的操作
 
 删除本地分支：git branch -d 分支名称
 
