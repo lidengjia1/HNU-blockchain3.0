@@ -1,5 +1,7 @@
 # 区块链学习小组
 
+![](https://github.com/lidengjia1/HNU-blockchain3.0/blob/master/image-storage/process%20of%20blockchain.png)
+
 ## 具体任务
 
 ### 第一组：区块链基础设施架构及云平台构建小组
