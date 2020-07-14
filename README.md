@@ -103,8 +103,6 @@ https://github.com/ GitHub网址
 https://git-scm.com/
 ```
 
-![1594713379(1)](C:\Users\Administrator.DESKTOP-I1RC48K\Desktop\HNU-blockchain3.0\区块链教材编写小组\图片\1594713379(1).png)
-
 
 
 #### 生成本地公钥
@@ -126,8 +124,6 @@ ssh-keygen -t rsa -C " "
 
 此时你按照上述路径 C:/Users/Admin/.ssh，找到该文件夹，如下图所示
 
-![20190811133557754](C:\Users\Administrator.DESKTOP-I1RC48K\Desktop\HNU-blockchain3.0\区块链教材编写小组\图片\20190811133557754.png)
-
 ```
 将excel发送给我
 ```
@@ -142,7 +138,7 @@ ssh-keygen -t rsa -C " "
   git clone git@github.com:lidengjia1/HNU-blockchain3.0.git 使用ssh
   ```
 
-  ![微信图片编辑_20200714160139](C:\Users\Administrator.DESKTOP-I1RC48K\Desktop\微信图片编辑_20200714160139.jpg)
+  ![](C:\Users\Administrator.DESKTOP-I1RC48K\Desktop\微信图片编辑_20200714160139.jpg
 
 - 2.配置管理员身份信息
 
@@ -200,17 +196,9 @@ git remote -v
 
 ![1594716868(1)](C:\Users\Administrator.DESKTOP-I1RC48K\Desktop\HNU-blockchain3.0\区块链教材编写小组\图片\1594716868(1).png)
 
-## 方法1：每次`push`、`pull`时需分开操作
+方法1：每次`push`、`pull`时需分开操作
 
-首先，查看本地仓库所关联的远程仓库：(假定最初仅关联了一个远程仓库)
-
-```bash
-$ git remote -v
-origin  git@github.com:keithnull/keithnull.github.io.git (fetch)
-origin  git@github.com:keithnull/keithnull.github.io.git (push)
-```
-
-然后，用`git remote add <name> <url>`添加一个远程仓库，其中`name`可以任意指定（对应上面的`origin`部分），比如：
+用`git remote add <name> <url>`添加一个远程仓库，其中`name`可以任意指定（对应上面的`origin`部分），比如：
 
 ```bash
 $ git remote add coding.net git@git.coding.net:KeithNull/keithnull.github.io.git
@@ -222,8 +210,8 @@ $ git remote add coding.net git@git.coding.net:KeithNull/keithnull.github.io.git
 $ git remote -v
 coding.net      git@git.coding.net:KeithNull/keithnull.github.io.git (fetch)
 coding.net      git@git.coding.net:KeithNull/keithnull.github.io.git (push)
-origin  git@github.com:keithnull/keithnull.github.io.git (fetch)
-origin  git@github.com:keithnull/keithnull.github.io.git (push)
+origin          git@github.com:keithnull/keithnull.github.io.git (fetch)
+origin          git@github.com:keithnull/keithnull.github.io.git (push)
 ```
 
 此后，若需进行`push`操作，则需要指定目标仓库，`git push <repo> <branch>`，对这两个远程仓库分别操作：
@@ -240,7 +228,7 @@ $ git pull origin master
 $ git pull coding.net master
 ```
 
-## 方法2：`push`和`pull`无需额外操作
+方法2：`push`和`pull`无需额外操作
 
 在方法1中，由于我们添加了多个远程仓库，在`push`和`pull`时便面临了仓库的选择问题。诚然如此较为严谨，但是在许多情况下，我们只需要保持远程仓库完全一致，而不需要进行区分，因而这样的区分便显得有些“多余”。
 
@@ -266,10 +254,6 @@ origin  git@github.com:keithnull/keithnull.github.io.git (fetch)
 origin  git@github.com:keithnull/keithnull.github.io.git (push)
 origin  git@git.coding.net:KeithNull/keithnull.github.io.git (push)
 ```
-
-可以看到，我们并没有如方法1一般增加远程仓库的数目，而是给一个远程仓库赋予了多个地址（或者准确地说，多个用于`push`的地址）。
-
-因此，这样设置后的`push` 和`pull`操作与最初的操作完全一致，不需要进行调整。
 
 ### git的命令指南
 
