@@ -156,6 +156,7 @@ ssh-keygen -t rsa -C " "
 - 3.日常管理
 
   ```
+  日常管理可以往这个项目中增加文件（PDF，图片，office三件套，代码，链接）
   注意git记录的是增删操作，如果建立的空文件夹等于没有更新操作
   ```
 
@@ -173,6 +174,8 @@ ssh-keygen -t rsa -C " "
     # 推送到远程仓库
     git push
   ```
+
+![微信图片编辑_20200714163547](C:\Users\Administrator.DESKTOP-I1RC48K\Desktop\HNU-blockchain3.0\区块链教材编写小组\图片\微信图片编辑_20200714163547.jpg)
 
 - 5.在 push 的时候需要设置账号与密码，该密码则是 github 的账号与密码
 
