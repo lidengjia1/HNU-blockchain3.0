@@ -104,7 +104,7 @@ https://github.com/ GitHub网址
 https://git-scm.com/
 ```
 
-![1594713379(1)](C:\Users\Administrator.DESKTOP-I1RC48K\Desktop\1594713379(1).png)
+![1594713379(1)](C:\Users\Administrator.DESKTOP-I1RC48K\Desktop\HNU-blockchain3.0\区块链教材编写小组\图片\1594713379(1).png)
 
 
 
@@ -120,14 +120,14 @@ ssh-keygen -t rsa -C " "
 
 这个指令会要求你提供一个 位置和文件名 去存放键值对和密码，可以一直点击 Enter键 去使用默认值。
 
-![20190811132917176](C:\Users\Administrator.DESKTOP-I1RC48K\Desktop\20190811132917176.png)
+![20190811132917176](C:\Users\Administrator.DESKTOP-I1RC48K\Desktop\HNU-blockchain3.0\区块链教材编写小组\图片\20190811132917176.png)
 
 提示1：最好的情况是一个密码对应一个ssh key，但也不是非得这样去做，就像上面我们跳过创建密码这个步骤。
 提示2：设置的密码不能被修改，也不可以被获取。
 
 此时你按照上述路径 C:/Users/Admin/.ssh，找到该文件夹，如下图所示
 
-![20190811133557754](C:\Users\Administrator.DESKTOP-I1RC48K\Desktop\20190811133557754.png)
+![20190811133557754](C:\Users\Administrator.DESKTOP-I1RC48K\Desktop\HNU-blockchain3.0\区块链教材编写小组\图片\20190811133557754.png)
 
 ```
 将excel发送给我
@@ -159,11 +159,13 @@ ssh-keygen -t rsa -C " "
   注意git记录的是增删操作，如果建立的空文件夹等于没有更新操作
   ```
 
-  ![image-20200714161921546](C:\Users\Administrator.DESKTOP-I1RC48K\AppData\Roaming\Typora\typora-user-images\image-20200714161921546.png)
+  ![image-20200714161921546](C:\Users\Administrator.DESKTOP-I1RC48K\Desktop\HNU-blockchain3.0\区块链教材编写小组\图片\image-20200714161921546.png)
 
 - 4.推送项目到远程仓库
 
   ```
+    #查看当前项目变更状态
+    git status
     # 工作区添加到暂存区
     git add .
     # 暂存区提交到仓库区
