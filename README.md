@@ -31,7 +31,6 @@
 目标：区块链与供应链金融，非对称信息博弈理论（特定分支），区块链信息加密理论。
 
 ### 第五组：教材编写小组
-<br>
 主编：马超群，周中定，李信儒，兰秋军
 <br>
 序言:
@@ -98,7 +97,7 @@ ssh-keygen -t rsa -C " "
 
 这个指令会要求你提供一个 位置和文件名 去存放键值对和密码，可以一直点击 Enter键 去使用默认值。
 
-https://github.com/lidengjia1/HNU-blockchain3.0/blob/master/images/1594713379(1).png
+![](https://github.com/lidengjia1/HNU-blockchain3.0/blob/master/image-storage/git%E4%B8%8B%E8%BD%BD.png)
 
 提示1：最好的情况是一个密码对应一个ssh key，但也不是非得这样去做，就像上面我们跳过创建密码这个步骤。
 提示2：设置的密码不能被修改，也不可以被获取。
