@@ -137,7 +137,7 @@ ssh-keygen -t rsa -C " "
   注意git记录的是增删操作，如果建立的空文件夹等于没有更新操作
   ```
 
-  ![]()
+  ![](https://github.com/lidengjia1/HNU-blockchain3.0/blob/master/image-storage/%E6%97%A5%E5%B8%B8%E6%93%8D%E4%BD%9C.png)
 
 - 4.推送项目到远程仓库
 
