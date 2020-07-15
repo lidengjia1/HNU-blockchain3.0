@@ -1,6 +1,6 @@
 # 区块链学习小组
 
-![](https://github.com/lidengjia1/HNU-blockchain3.0/blob/master/image-storage/process%20of%20blockchain.png)
+![](image-storage/process of blockchain.png)
 
 ## 具体任务
 
@@ -85,7 +85,7 @@ https://github.com/ GitHub网址
 https://git-scm.com/
 ```
 
-![]([https://gitee.com/lidengjia/HNU-blockchain3.0/raw/master/image-storage/git%E4%B8%8B%E8%BD%BD.png](https://gitee.com/lidengjia/HNU-blockchain3.0/raw/master/image-storage/git下载.png))
+![](image-storage/git下载.png)
 
 #### 生成本地公钥
 
@@ -99,14 +99,14 @@ ssh-keygen -t rsa -C " "
 
 这个指令会要求你提供一个位置和文件名去存放键值对和密码，可以一直点击 Enter键 去使用默认值。
 
-![](https://github.com/lidengjia1/HNU-blockchain3.0/blob/master/image-storage/%E7%94%9F%E6%88%90%E5%85%AC%E9%92%A5.png)
+![](image-storage/生成公钥.png)
 
 提示1：最好的情况是一个密码对应一个ssh key，但也不是非得这样去做，就像上面我们跳过创建密码这个步骤。
 提示2：设置的密码不能被修改，也不可以被获取。
 
 此时你按照上述路径 C:/Users/Admin/.ssh，找到该文件夹，如下图所示
 
-![](https://github.com/lidengjia1/HNU-blockchain3.0/blob/master/image-storage/%E5%85%AC%E9%92%A5%E4%BD%8D%E7%BD%AE.png)
+![](image-storage/公钥位置.png)
 
 ```
 将excel发送给我
@@ -122,7 +122,7 @@ ssh-keygen -t rsa -C " "
   git clone git@github.com:lidengjia1/HNU-blockchain3.0.git 使用ssh
   ```
 
-  ![](https://github.com/lidengjia1/HNU-blockchain3.0/blob/master/image-storage/%E5%85%8B%E9%9A%86%E9%A1%B9%E7%9B%AE.jpg)
+  ![](image-storage/克隆项目.jpg)
 
 - 2.配置管理员身份信息
 
@@ -139,7 +139,7 @@ ssh-keygen -t rsa -C " "
   注意git记录的是增删操作，如果建立的空文件夹等于没有更新操作
   ```
 
-  ![](https://github.com/lidengjia1/HNU-blockchain3.0/blob/master/image-storage/%E6%97%A5%E5%B8%B8%E6%93%8D%E4%BD%9C.png)
+  ![](image-storage/日常操作.png)
 
 - 4.推送项目到远程仓库
 
@@ -154,7 +154,7 @@ ssh-keygen -t rsa -C " "
   git push
   ```
 
-![](https://github.com/lidengjia1/HNU-blockchain3.0/blob/master/image-storage/git%E6%A0%B8%E5%BF%83%E6%93%8D%E4%BD%9C.jpg)
+![](image-storage/git核心操作.jpg)
 
 - 5.在 push 的时候需要设置账号与密码，该密码则是 github 的账号与密码
 
@@ -177,7 +177,7 @@ ssh-keygen -t rsa -C " "
 git remote -v
 ```
 
-![](https://github.com/lidengjia1/HNU-blockchain3.0/blob/master/image-storage/%E6%9F%A5%E7%9C%8B%E5%88%86%E6%94%AF.png)
+![](image-storage/查看分支.png)
 
 方法1：每次`push`、`pull`时需分开操作
 
