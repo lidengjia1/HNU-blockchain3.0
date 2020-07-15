@@ -1,6 +1,6 @@
 # 区块链学习小组
 
-![](image-storage/process of blockchain.png)
+![](image-storage/区块链.png)
 
 ## 具体任务
 
