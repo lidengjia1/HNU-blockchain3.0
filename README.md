@@ -85,7 +85,7 @@ https://github.com/ GitHub网址
 https://git-scm.com/
 ```
 
-![](https://github.com/lidengjia1/HNU-blockchain3.0/blob/master/image-storage/git%E4%B8%8B%E8%BD%BD.png)
+![]([https://gitee.com/lidengjia/HNU-blockchain3.0/blob/master/image-storage/git%E4%B8%8B%E8%BD%BD.png](https://gitee.com/lidengjia/HNU-blockchain3.0/blob/master/image-storage/git下载.png))
 
 #### 生成本地公钥
 
